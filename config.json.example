@@ -1,0 +1,23 @@
+{
+  "fastify": {
+    "hostname": "localhost",
+    "port": 3000,
+    "logger": false
+  },
+  "general": {
+    "fileUrl": "https://images.example.com/{0}",
+    "redirect": "https://example.com",
+    "uploadKeys": [
+      "2d9f4679-9a28-4fdc-866e-06c2b1fc1b39"
+    ],
+    "uploadLimit": "100mb",
+    "errorCacheTTL": 3600000
+  },
+  "b2": {
+    "keyID": "",
+    "applicationKey": "",
+    "bucketName": "",
+    "bucketId": "",
+    "authCacheTTL": 3600000
+  }
+}
