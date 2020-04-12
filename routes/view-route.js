@@ -15,6 +15,7 @@ async function routes (fastify, options) {
         if(file.status === 200) {
           reply.type(file.headers['content-type'])
           reply.header('content-length', file.headers['content-length'])
+          reply.header('cache-control', `public, max-age=${config.general.fileCacheMaxAge}`)
 
           return file.data
         } else {

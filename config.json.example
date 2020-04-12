@@ -11,6 +11,7 @@
       "2d9f4679-9a28-4fdc-866e-06c2b1fc1b39"
     ],
     "uploadLimit": "100mb",
+    "fileCacheMaxAge": 31536000,
     "errorCacheTTL": 3600000
   },
   "b2": {
