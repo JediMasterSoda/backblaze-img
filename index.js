@@ -22,7 +22,7 @@ fastify.register(require('./routes/upload-route'))
 
 const start = async () => {
   try {
-    await fastify.listen(config.fastify.port, config.fastify.hostname)
+    await fastify.listen(process.env.PORT || config.fastify.port, config.fastify.hostname)
   } catch (err) {
     fastify.log.error(err)
     process.exit(1)

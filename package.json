@@ -1,5 +1,8 @@
 {
   "name": "backblaze-img",
+  "scripts": {
+    "start": "node index"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "author": "JediMasterSoda",
