@@ -41,6 +41,8 @@
 
 ### Fastify
 
+| Key | Value |
+| -------- | ------------------------------------------------------------ |
 | hostname | “localhost” for testing and your server’s IP address or “0.0.0.0” for production. |
 | logger   | Only enable for debugging because Fastify runs slower with logging enabled. |
 
