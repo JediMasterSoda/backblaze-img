@@ -1,0 +1,9 @@
+﻿{
+  "Version": "13.1.0",
+  "Name": "backblaze-img",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://{WEBSITE_URL}/upload/{UPLOAD_KEY}",
+  "Body": "Binary",
+  "URL": "$json:file_url$"
+}
